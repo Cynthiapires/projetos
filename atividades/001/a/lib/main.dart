@@ -5,6 +5,7 @@ main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
   home: mediaAritmetica(),
 ));
+
 class mediaAritmetica extends StatefulWidget {
   const mediaAritmetica({super.key});
 
