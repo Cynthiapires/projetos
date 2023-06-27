@@ -1,0 +1,8 @@
+material.dart: é a biblioteca grafica do flutter.
+
+context: é a informação que circula dentro do nosso app.
+
+main() - ponto de partida do nosso app, é onde ele sera rodado,
+runApp(FormatacaoTextoApp()) - runApp é o disparador que inicia o app, FormatacaoTextoApp é uma classe 
+
+container: é uma area livre para a construção do app.
