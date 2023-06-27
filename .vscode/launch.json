@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "aula1",
+            "cwd": "aula1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula1 (profile mode)",
+            "cwd": "aula1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula1 (release mode)",
+            "cwd": "aula1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula10_stateful",
+            "cwd": "aula10_stateful",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula10_stateful (profile mode)",
+            "cwd": "aula10_stateful",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula10_stateful (release mode)",
+            "cwd": "aula10_stateful",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula11_checkbox",
+            "cwd": "aula11_checkbox",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula11_checkbox (profile mode)",
+            "cwd": "aula11_checkbox",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula11_checkbox (release mode)",
+            "cwd": "aula11_checkbox",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula12_checkboxlist",
+            "cwd": "aula12_checkboxlist",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula12_checkboxlist (profile mode)",
+            "cwd": "aula12_checkboxlist",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula12_checkboxlist (release mode)",
+            "cwd": "aula12_checkboxlist",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula13_checkradio",
+            "cwd": "aula13_checkradio",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula13_checkradio (profile mode)",
+            "cwd": "aula13_checkradio",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula13_checkradio (release mode)",
+            "cwd": "aula13_checkradio",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula2",
+            "cwd": "aula2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula2 (profile mode)",
+            "cwd": "aula2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula2 (release mode)",
+            "cwd": "aula2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula3_outro_exemplo",
+            "cwd": "aula3_outro_exemplo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula3_outro_exemplo (profile mode)",
+            "cwd": "aula3_outro_exemplo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula3_outro_exemplo (release mode)",
+            "cwd": "aula3_outro_exemplo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula4_alinhamente",
+            "cwd": "aula4_alinhamente",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula4_alinhamente (profile mode)",
+            "cwd": "aula4_alinhamente",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula4_alinhamente (release mode)",
+            "cwd": "aula4_alinhamente",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula5_botoes",
+            "cwd": "aula5_botoes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula5_botoes (profile mode)",
+            "cwd": "aula5_botoes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula5_botoes (release mode)",
+            "cwd": "aula5_botoes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula6_imagens",
+            "cwd": "aula6_imagens",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula6_imagens (profile mode)",
+            "cwd": "aula6_imagens",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula6_imagens (release mode)",
+            "cwd": "aula6_imagens",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula7_scaffold",
+            "cwd": "aula7_scaffold",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula7_scaffold (profile mode)",
+            "cwd": "aula7_scaffold",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula7_scaffold (release mode)",
+            "cwd": "aula7_scaffold",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula8_entrada",
+            "cwd": "aula8_entrada",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula8_entrada (profile mode)",
+            "cwd": "aula8_entrada",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula8_entrada (release mode)",
+            "cwd": "aula8_entrada",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aula9_stateless",
+            "cwd": "aula9_stateless",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aula9_stateless (profile mode)",
+            "cwd": "aula9_stateless",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aula9_stateless (release mode)",
+            "cwd": "aula9_stateless",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "a",
+            "cwd": "atividades\\001\\a",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "a (profile mode)",
+            "cwd": "atividades\\001\\a",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "a (release mode)",
+            "cwd": "atividades\\001\\a",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "b",
+            "cwd": "atividades\\001\\b",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "b (profile mode)",
+            "cwd": "atividades\\001\\b",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "b (release mode)",
+            "cwd": "atividades\\001\\b",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
