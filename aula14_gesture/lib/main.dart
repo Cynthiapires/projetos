@@ -8,7 +8,7 @@ class Gesture extends StatefulWidget {
   const Gesture({super.key});
 
   @override
-  _GestureState creatState() => _GestureState();
+  _GestureState createState() => _GestureState();
 }
 
 class _GestureState extends State<Gesture> {
@@ -86,7 +86,7 @@ class _GestureState extends State<Gesture> {
               Padding(
                 padding: const EdgeInsets.only(top: 20),
                 child: Column(
-                  children: [
+                  children:  [
                     Text(
                       'Escolha um personagem',
                       style: TextStyle(fontSize: 20),
@@ -108,7 +108,7 @@ class _GestureState extends State<Gesture> {
                         _personagem,
                         style: const TextStyle(
                           fontSize: 30,
-                          color: Colors.orange,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ),
