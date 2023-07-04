@@ -1,0 +1,8 @@
+import 'main.dart';
+import 'package:flutter/material.dart';
+
+main() => runApp(
+  const MaterialApp(
+    home: Home(),
+  )
+);
