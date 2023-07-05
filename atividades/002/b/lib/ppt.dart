@@ -17,8 +17,8 @@ class pedrapapeltesoura extends StatefulWidget {
 
 class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
   String _personagem = '';
-  dynamic _imagem = const AssetImage('imagem/padrao.png');
-  dynamic _imagem2 = const AssetImage('imagem/pedra.png');
+  dynamic _imagem2 = const AssetImage('imagem/padrao.png');
+  dynamic _imagem1 = const AssetImage('imagem/pedra.png');
   dynamic _imagem3 = const AssetImage('imagem/papel.png');
   dynamic _imagem4 = const AssetImage('imagem/tesoura.png');
 
@@ -61,7 +61,7 @@ class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
             ),
             const SizedBox(height: 20),
             Text(
-              'Escolha',
+              'Papel, Pedra ou Tesoura?',
               style: const TextStyle(fontSize: 20),
             ),
             Padding(
@@ -79,7 +79,7 @@ class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
                           });
                         },
                         child: Image.asset(
-                          'images/papel.png',
+                          'imagem/papel.png',
                           width: 80,
                         ),
                       ),
@@ -91,7 +91,7 @@ class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
                           });
                         },
                         child: Image.asset(
-                          'images/pedra.png',
+                          'imagem/pedra.png',
                           width: 80,
                         ),
                       ),
@@ -103,7 +103,7 @@ class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
                           });
                         },
                         child: Image.asset(
-                          'images/tesoura.png',
+                          'imagem/tesoura.png',
                           width: 80,
                         ),
                       ),
@@ -144,13 +144,13 @@ class _pedrapapeltesouraState extends State<pedrapapeltesoura> {
   AssetImage _getImageForChoice(Choice choice) {
     switch (choice) {
       case Choice.Pedra:
-        return _imagem2;
+        return _imagem1;
       case Choice.Papel:
         return _imagem3;
       case Choice.Tesoura:
         return _imagem4;
       default:
-        return _imagem;
+        return _imagem2;
     }
   }
 }
