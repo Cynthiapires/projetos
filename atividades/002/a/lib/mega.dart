@@ -10,7 +10,6 @@ class MegaSenaApp extends StatefulWidget {
 
 class _MegaSenaAppState extends State<MegaSenaApp> {
   List<int> numbers = [];
-
   void generateRandomNumbers() {
     Set<int> uniqueNumbers = Set();
 
