@@ -19,9 +19,11 @@ class _ZeState extends State<Ze> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             const Text('''Zé Colmeia, ele aparece no Parque Jellystone, que é uma imitação caricaturizada do famoso Parque Nacional de Yellowstone, nos Estados Unidos. \n Zé é sempre acompanhado do seu 
-             melhor amigo Catatau, tentando ou arquitetando uma forma de roubar as cestas de piquenique dos visitantes distraídos do parque. '''),
-          Image.asset('images/3.png'),
+             const Text('''Zé Colmeia, ele aparece no Parque Jellystone, que é uma imitação caricaturizada do famoso Parque Nacional de Yellowstone, \n nos Estados Unidos. Zé é sempre acompanhado do seu melhor amigo Catatau, tentando ou arquitetando uma forma de\nroubar as cestas de piquenique dos visitantes distraídos do parque. '''),
+          Padding(
+            padding: const EdgeInsets.all(15),
+            child: Image.asset('images/3.png'),
+          ),
 
             ElevatedButton(
               onPressed: () {

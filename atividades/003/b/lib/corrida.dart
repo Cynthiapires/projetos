@@ -18,10 +18,11 @@ class _CorridaState extends State<Corrida> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             const Text('''Corrida Maluca uma competição totalmente surreal e personagens super carismáticos! \n
-             "Aqui estão agora os volantes mais birutas do mundo para realizar mais uma corrida maluca, \n 
-             em uma disputa pelo título de volante mais biruta do mundo."'''),
-          Image.asset('images/4.png'),
+             const Text('''Corrida Maluca uma competição totalmente surreal e personagens super carismáticos! \n "Aqui estão agora os volantes mais birutas do mundo para realizar mais uma corrida maluca,\nem uma disputa pelo título de volante mais biruta do mundo."'''),
+          Padding(
+            padding: const EdgeInsets.all(15),
+            child: Image.asset('images/4.png'),
+          ),
           ],
         ),
       ),

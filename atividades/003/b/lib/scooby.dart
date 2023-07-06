@@ -21,7 +21,10 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
           const Text('Quatro adolescentes metidos a detetives — Fred, Velma, Daphne e Salsicha — com Scooby-Doo, um Dogue\n Alemão falante, viajam numa van chamada Máquina de Mistério, e ajudam a investigar casos misteriosos. '),
-          Image.asset('images/1.png'),
+          Padding(
+            padding: const EdgeInsets.all(15),
+            child: Image.asset('images/1.png'),
+          ),
 
             ElevatedButton(
               onPressed: () {
